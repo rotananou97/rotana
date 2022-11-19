@@ -1,0 +1,104 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333333;
+    width: 100%;
+    z-index: 1;
+}
+
+nav {
+    width: 100px;
+    padding: 10px 0;
+}
+nav li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    display: inline-block;
+    width: 80px;
+}
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.newyork {
+    background-image: url("https://content.codecademy.com/projects/broadway/bg.jpg");
+    height: 700px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+main {
+    text-align: center;
+    position: relative;
+}
+.container {
+    position: relative;
+    top: 150px;
+    margin: 0 auto;
+}
+.container h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.container .getstarted {
+    background-color: #333333;
+    color: #fff;
+    padding: 15px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+.support {
+    padding-top: 80px;
+    border: 1px solid green;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.support .col {
+    display: inline-block;
+    width: 200px;
+    position: relative;
+    bottom: 40px;
+}
+.col img {
+    width: 50px;
+    height: 50px;
+}
+.col h2 {
+    font-size: 23px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+.col p {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+.col a {
+    background-color: #333;
+    color: #fff;
+    padding: 7px 15px;
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    background-color: #333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer p {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
